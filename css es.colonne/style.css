@@ -1,0 +1,6 @@
+.paragraph_columns{
+    column-count: 3;
+    width: 700px;
+    margin: 100px;
+    column-gap: 40px;
+}
