@@ -1,0 +1,16 @@
+a:hover , h1:hover , p:hover{
+    
+    background-color: yellow;
+}
+
+a{
+    color: green;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: blueviolet;
+}
