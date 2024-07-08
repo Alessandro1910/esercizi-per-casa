@@ -1,8 +1,7 @@
-.header_title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 15px;
-    margin-right: 250px;
-    margin-top: 300px;
+h2{
+border: 4px dashed red;
 }
+    
+
+
+
