@@ -1,0 +1,5 @@
+.navbar_menu-item{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
