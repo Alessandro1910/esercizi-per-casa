@@ -1,14 +1,15 @@
-.central_paragraph{
-    display: flex;
-    text-align: center;
+.central_p{
+   
     color:yellow;
-    font-size: 40px;
+   
 }
 
-#paragraph_id{
-    color: blue;
-}
+
 
 p{
     color: blueviolet;
+}
+
+#id {
+    color: blue;
 }
