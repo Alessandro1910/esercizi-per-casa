@@ -1,0 +1,11 @@
+.navbar_menu{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    gap: 15px;
+    margin: 10px;
+    border: 10px;
+    background-color: aquamarine;
+   
+    
+}
