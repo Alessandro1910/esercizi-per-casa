@@ -1,0 +1,18 @@
+p{
+    /*display: inline-block;*/
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    padding-left: 350px;
+    font-size: 25px;
+}
+
+img{
+    /*display: inline-block;*/
+    float: right;
+    border: 10px solid yellow;
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+}
