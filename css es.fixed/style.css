@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     position: fixed;
+    top: 0;
     gap: 15px;
     margin: 10px;
     border: 10px;
