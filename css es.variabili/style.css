@@ -1,0 +1,9 @@
+:root{
+    --primary-color:red;
+    --font-size:80px;
+}
+
+*{
+    color: var(--primary-color);
+    font-size: var(--font-size);
+}
