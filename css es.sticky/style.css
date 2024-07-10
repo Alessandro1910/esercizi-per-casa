@@ -1,0 +1,10 @@
+.navbar_menu-item{
+   display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    color: blue;
+    border: 2px solid green;
+
+}
