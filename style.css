@@ -198,6 +198,19 @@ path{
     color: grey; /*important*/
 }
 
+.section3{
+    text-align: center
+}
+
+.title{
+    font-size: 30px;
+}
+
+.image4{
+    width: 1000px;
+    height: 550px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 *{
