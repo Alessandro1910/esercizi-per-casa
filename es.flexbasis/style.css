@@ -1,0 +1,42 @@
+.container_box{
+    width: 500px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.flexitem_1{
+    width: 100px;
+    height: 50px;
+    border: 3px solid blue;
+    flex-basis: 100px;
+    flex-direction: column;
+    
+    
+}
+
+.flexitem_2{
+    width: 100px;
+    height: 50px;
+    border: 3px solid blue;
+    gap: 5px;
+    flex-basis: 400px;
+    flex-direction: column;
+    
+   
+}
+
+.flexitem_3{
+    width: 100px;
+    height: 50px;
+    border: 3px solid blue;
+    gap: 5px;
+    flex-shrink: 100px;
+    flex-direction: row;
+
+   
+}
