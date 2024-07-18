@@ -1,0 +1,5 @@
+.container_box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+}
