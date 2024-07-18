@@ -1,0 +1,33 @@
+.flex_container{
+    width: 500px;
+    height: 300px;
+    border: 5px solid red;
+    background-color: green;
+    display: flex;
+    gap: 5px;
+}
+
+.flexitem_1{
+    width: 100px;
+    height: 50px;
+    border: 5px solid yellow;
+    flex-grow: 2;
+    
+}
+
+.flexitem_2{
+    width: 100px;
+    height: 50px;
+    border: 5px solid yellow;
+    flex-grow: 2;
+   
+}
+
+.flexitem_3{
+    width: 100px;
+    height: 50px;
+    border: 5px solid yellow;
+    flex-grow: 5;
+
+   
+}
