@@ -1,0 +1,15 @@
+.container_card1{
+    display: inline-block;
+    /*float: left;*/
+}
+
+.container_card2{
+    display: inline-block;
+    /*float: right;*/
+}
+
+.Sp{
+    position: relative;
+    bottom: 600px;
+    left: 485px;
+}
