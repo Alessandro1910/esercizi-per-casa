@@ -1,0 +1,6 @@
+.box{
+    box-sizing: border-box;
+    border: 5px solid red;
+    width: 130px;
+    height: 110px;
+}
