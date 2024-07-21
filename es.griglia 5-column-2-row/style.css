@@ -1,0 +1,14 @@
+.grid-container {
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr  1fr 1fr 1fr;
+    grid-gap: 5px;
+    color: red;
+    width: auto;
+}
+
+.grid-item{
+    border: 2px solid blue;
+    
+}
+
