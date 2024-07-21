@@ -1,0 +1,23 @@
+
+.container {
+    background-color: #ff00ff;
+    display: flex;
+    align-items: center;
+    height:200px;
+    width:700px;
+}
+.container > div {
+    background-color: #eee;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+}
+.al-self {
+   align-self: flex-end;
+}
+
+.al-self1{
+    align-self: flex-start;
+}
