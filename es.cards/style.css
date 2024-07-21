@@ -9,7 +9,6 @@
 }
 
 .Sp{
-    position: relative;
-    bottom: 600px;
-    left: 485px;
+    position: absolute;
+   top: 10px;
 }
