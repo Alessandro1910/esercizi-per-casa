@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+
+.gallery{
+    display: flex;
+    gap: 15px;
+}
+.gallery img{
+    border-radius: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    width:500px;
+    height: 400px;
+}
+
+.gallery:has(img:hover) img:not(:hover){
+    filter:blur(10px);
+}
