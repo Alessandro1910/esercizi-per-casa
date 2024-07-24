@@ -1,0 +1,28 @@
+$bg-color:red;
+$start-color:#607d8b;
+
+.btn{
+    background-color:$bg-color;
+    height: 100px;
+    width: 100px;
+
+    button{
+        background-color: blue;
+        color: white;
+    }
+}
+
+.boxes{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    gap: 20px;
+
+    @for $i from 1 through 5{
+        .box:nth-child(#{$i}){
+            background-color:lighten($start-color, $i * 5%);
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

@@ -2,18 +2,17 @@ body{
     background-color: aquamarine;
 }
 
-.gallery{
+.card__gallery{
     display: flex;
     gap: 15px;
 }
-.gallery img{
+.card__gallery img{
     border-radius: 15px;
     transition-duration: 0.3s;
     cursor: pointer;
     width:500px;
-    height: 400px;
 }
 
-.gallery:has(img:hover) img:not(:hover){
+.card__gallery:has(img:hover) img:not(:hover){
     filter:blur(10px);
 }
