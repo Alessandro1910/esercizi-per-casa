@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    /* Variables */
+
+    :root{
+ --body-color:#151719;
+ --product-btn-color:#5d5dff;
+ --engineering-btn-color:#2563eb;
+ --desing-btn-color:#ec4899;
+ --tutorial-and-articles-btn-color:#14b8a6;
+ --culture-btn-color:#22c55e;
+ --title-color:#d9e3ea;
+ --p-color:#9ba9b4;
+ --font-family: "Inter", sans-serif;
+}
+      /* Selector Universal */
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:var(--font-family)
+}
+        /* Section */
+
+body{
+   background-color: var(--body-color);
+}
+
+h2{
+    color:var(--title-color);
+}
+
