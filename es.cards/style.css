@@ -1,14 +1,17 @@
 .container_card1{
     display: inline-block;
+    position: relative;
     /*float: left;*/
 }
 
 .container_card2{
     display: inline-block;
+    position: relative;
     /*float: right;*/
 }
 
 .Sp{
     position: absolute;
+    right: 10px;
    top: 10px;
 }
