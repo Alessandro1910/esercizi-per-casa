@@ -1,0 +1,73 @@
+/* utility */
+
+/* Position */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.justify-center {
+    /* Following direction */
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justifiy-evenly{
+    justify-content: space-evenly;
+}
+
+.items-center {
+    /* Inverse of direction */
+    align-items: center;
+}
+
+.align-center{
+    text-align: center;
+}
+
+/* Colors */
+
+.color-primary {
+    color: var(--color-primary);
+}
+
+.color-secondary {
+    color: var(--color-secondary);
+}
+
+/* Background */
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
+/* Font weight */
+.font-w-400 {
+    font-weight: 400;
+}

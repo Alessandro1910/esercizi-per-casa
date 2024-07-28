@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+h1 , h2 , h3{
+    color: #2b2929;
+}
+
+p{
+    color: #2b2929;
+}
+
+.btn{
+    background-color: #ffbc0d;
+    border-radius: 4px;
+    padding: 0.80rem 1.6rem;
+    color: #2b2929;
+}

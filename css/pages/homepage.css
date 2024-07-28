@@ -1,0 +1,160 @@
+            /*      Navbar      */
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper .container{
+   width: 100%; 
+   max-width: var(--global-max-width);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav{
+    gap: 50px;
+}
+
+.nav .nav__img{
+    width: 118px;
+    height: 118px;
+}
+
+.nav .nav__center{
+    padding-left: 50px;
+    gap: 25px;
+   
+}
+
+a{
+    font-size: 17px;
+    text-decoration: none;
+    color:var(--color-nav-menu);
+    cursor: pointer;
+
+}
+
+.nav .nav__img img{
+    width: 118px;
+    height: 118px;
+}
+
+.nav__icon{
+    gap: 25px;
+}
+
+.nav .nav__search{
+    gap: 5px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+}
+
+.nav .nav__search svg{
+    width: 12px;
+    height: 12px;
+}
+
+.nav .nav__location{
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: cornflowerblue;
+    text-decoration: cornflowerblue;
+   
+}
+
+.nav .nav__location svg{
+    width: 32px;
+    height: 12px;
+}
+
+
+   /*           Header     */
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .container{
+   width: 100%; 
+   max-width: var(--global-max-width);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.header__top{
+    display: flex;
+    flex-direction: column;
+    padding-top: 75px;
+}
+
+.header__top h1{
+    font-size:var(--font-size-h1);
+    color:var(--color-title);
+    font-weight: 600;
+    padding-bottom: 35px;
+}
+
+.header__top p{
+    font-size: var(--font-size-p);
+    color: var(--color-nav-menu);
+   padding: 10px;
+}
+
+
+img{
+    width: 1150px;
+    height: 527px;
+}
+
+.header__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.header__bottom h2{
+    font-size: var(--font-size-h2);
+    color: var(--color-title);
+    margin-left: -120px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+.header__bottom p{
+    font-size: var(--font-size-p);
+    color: var(--color-nav-menu);
+    margin-left: -120px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.header__bottom button{
+    background-color: var(--bg-color-btn);
+    color: black;
+    border-radius: 5px;
+    border: #ffbc0d;
+    padding: 15px 35px;
+    font-size: 15px;
+    margin-left: -120px;
+    
+
+}
+
+
+
+
+
+
