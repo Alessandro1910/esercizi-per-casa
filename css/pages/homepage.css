@@ -623,7 +623,7 @@ img{
 }
 
 .section__menu .flex-menu13 .img-menu13{
-    width: 1050px;
+    width: 1070px;
     height: 475px;
     margin-top: 150px;
 }
@@ -644,7 +644,7 @@ img{
     margin-top: 20px;
 }
 
-.section__menu .flex-menu13 button{
+.section__menu .flex-menu13 .section-btn button{
     background-color: var(--bg-color-btn);
     color: black;
     border-radius: 5px;
