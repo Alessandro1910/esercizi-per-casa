@@ -654,18 +654,27 @@ img{
     margin-top: -20px;
 }
 
-/* Card1 */
-
+                /* Card */
 .card__container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+/* Card 1 */
+
+.card__container .card1{
+    border: 1px solid grey;
+    width: 374px;
+    height: 478px;
 }
 
 .card__container .card1 h3{
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .card__container .card1 p{
@@ -679,7 +688,8 @@ img{
 .card__container .card1 .card-img1{
     width: 381px;
     height: 175px;
-    margin-top: 120px;
+    margin-top: 20px;
+    padding-left: 5px;
 }
 
 .card__container .card1 .card-btn button{
@@ -693,22 +703,32 @@ img{
 } 
 
 /* Card 2 */
-.card__container.card2 h3{
-    font-size: 35px;
+
+.card__container .card2{
+    border: 1px solid grey;
+    width: 365px;
+    height: 478px;
+}
+
+.card__container .card2 h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .card__container .card2 p{
     font-size: 15px;
+    text-align: center;
 }
 
 .card__container .card2 img{
-   width: 25%;
+    width: 25%;
 } 
 
 .card__container .card2 .card-img2{
     width: 381px;
     height: 175px;
-    margin-top: 120px;
+    margin-top: 20px;
 }
 
 .card__container .card2 .card-btn button{
@@ -719,12 +739,20 @@ img{
     padding: 15px 35px;
     font-size: 15px;
     margin-top: 40px;
+    margin-left: 30px;
 } 
 
-/* Menu 3 */
+/* Card 3 */
+
+.card__container .card3{
+    border: 1px solid grey;
+    width: 382px;
+    height: 478px;
+}
 
 .card__container .card3 h3{
     font-size: 35px;
+    margin-bottom: 20px;
 }
 
 .card__container .card3 p{
@@ -732,13 +760,13 @@ img{
 }
 
 .card__container .card3 img{
-   width: 25%;
+    width: 25%;
 } 
 
 .card__container .card3 .card-img3{
     width: 381px;
     height: 175px;
-    margin-top: 120px;
+    margin-top: 0px;
 }
 
 .card__container .card3 .card-btn button{
@@ -748,7 +776,8 @@ img{
     border: #ffbc0d;
     padding: 15px 35px;
     font-size: 15px;
-    margin-top: 40px;
+    margin-top: 60px;
+    
 } 
 
 

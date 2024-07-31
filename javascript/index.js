@@ -1,3 +1,4 @@
+/*
 test = 1;
 
 var index = 2;
@@ -23,9 +24,11 @@ colors[1];
 
 console.log(colors[0]);
 
-console.log(user.email);
+console.log(user.email); 
 
-console.log(user["email"]);
+
+
+
 
 const keyName = "age";
 
@@ -85,4 +88,14 @@ console.log(counter);
 
 const test1 = undefined;
 
-const test2 = null;
+const test2 = null; */
+
+let startNumber = 0;
+
+function sum(n1, n2){
+    return  n1 + n2   
+}
+
+const result = sum(5, 6);
+
+console.log(result)
