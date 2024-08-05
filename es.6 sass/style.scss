@@ -1,0 +1,7 @@
+@use "modulo.scss";
+
+
+.class-btn{
+    background-color: modulo.$primary-color;
+    color: modulo.$secondary-color;
+}
