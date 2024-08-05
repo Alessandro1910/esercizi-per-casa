@@ -4,15 +4,20 @@
     box-sizing: border-box;
     --font-family:"Geologica", sans-serif;
     
+    
+}
+
+body{
+    background-color: #264f36;
 }
 
 
 h1 , h2 , h3{
-    color: #2b2929;
+    color: white;
 }
 
 p{
-    color: #2b2929;
+    color: white;
 }
 
 .btn{

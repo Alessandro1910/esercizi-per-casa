@@ -114,8 +114,7 @@ a{
 
 
 img{
-    width: 1150px;
-    height: 527px;
+    max-width: 100%;
 }
 
 .header__bottom{
@@ -666,33 +665,32 @@ img{
 
 /* Card 1 */
 
-.card__container .card1{
+.card__container .card{
     border: 1px solid grey;
-    width: 374px;
-    height: 478px;
+    width: 32%;
+    padding-bottom: 2em;
 }
 
-.card__container .card1 h3{
+.card__container .card h3{
     font-size: 35px;
     margin-bottom: 20px;
 }
 
-.card__container .card1 p{
+.card__container .card p{
     font-size: 15px;
 }
 
-.card__container .card1 img{
-    width: 25%;
+.card__container .card img{
+    width: 100%;
 } 
 
-.card__container .card1 .card-img1{
-    width: 381px;
-    height: 175px;
+.card__container .card .card-img{
+    width: 100%;
     margin-top: 20px;
     padding-left: 5px;
 }
 
-.card__container .card1 .card-btn button{
+.card__container .card .card-btn button{
     background-color: var(--bg-color-btn);
     color: black;
     border-radius: 5px;
@@ -702,83 +700,6 @@ img{
     margin-top: 40px;
 } 
 
-/* Card 2 */
-
-.card__container .card2{
-    border: 1px solid grey;
-    width: 365px;
-    height: 478px;
-}
-
-.card__container .card2 h3{
-    font-size: 40px;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.card__container .card2 p{
-    font-size: 15px;
-    text-align: center;
-}
-
-.card__container .card2 img{
-    width: 25%;
-} 
-
-.card__container .card2 .card-img2{
-    width: 381px;
-    height: 175px;
-    margin-top: 20px;
-}
-
-.card__container .card2 .card-btn button{
-    background-color: var(--bg-color-btn);
-    color: black;
-    border-radius: 5px;
-    border: #ffbc0d;
-    padding: 15px 35px;
-    font-size: 15px;
-    margin-top: 40px;
-    margin-left: 30px;
-} 
-
-/* Card 3 */
-
-.card__container .card3{
-    border: 1px solid grey;
-    width: 382px;
-    height: 478px;
-}
-
-.card__container .card3 h3{
-    font-size: 35px;
-    margin-bottom: 20px;
-}
-
-.card__container .card3 p{
-    font-size: 15px;
-}
-
-.card__container .card3 img{
-    width: 25%;
-} 
-
-.card__container .card3 .card-img3{
-    width: 381px;
-    height: 175px;
-    margin-top: 0px;
-}
-
-.card__container .card3 .card-btn button{
-    background-color: var(--bg-color-btn);
-    color: black;
-    border-radius: 5px;
-    border: #ffbc0d;
-    padding: 15px 35px;
-    font-size: 15px;
-    margin-top: 60px;
-    
-} 
 
 
 

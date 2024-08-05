@@ -73,3 +73,4 @@ function checkIfOdd(n1){
 }
 
 console.log(checkIfOdd(3))
+
