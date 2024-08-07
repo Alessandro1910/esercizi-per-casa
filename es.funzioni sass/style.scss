@@ -1,0 +1,17 @@
+// Convert font-size to em
+
+$base-font-size: 20px;
+
+@function em($target, $context : $base-font-size) {
+    @return ($target / $context ) * 1em;
+}
+
+body{
+    font-size: em(10px);
+}
+
+/* @function (10, 20 : 20) {
+    @return (10 / 1) * 1em;
+}
+
+// Result = 10em */
