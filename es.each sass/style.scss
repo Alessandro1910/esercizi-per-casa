@@ -1,0 +1,31 @@
+$colors: gray, red, blue, black, yellow;
+
+@each $color in $colors {
+    .color1#{$color} {
+        color: $color;
+    }
+}
+
+@each $color in $colors {
+    .color2#{$color} {
+        color: $color;
+    }
+}
+
+@each $color in $colors {
+    .color3#{$color} {
+        color: $color;
+    }
+}
+
+@each $color in $colors {
+    .color4#{$color} {
+        color: $color;
+    }
+}
+
+@each $color in $colors {
+    .color#{$color} {
+        color: $color;
+    }
+}
