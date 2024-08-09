@@ -1,0 +1,41 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;  
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 1100px;
+    background-color: #000000;
+}
+
+@mixin navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.light-navbar{
+    @include navbar;
+}
+
+.dark-navbar{
+    @include navbar();
+    background-color: #000000;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+
+:hover a{
+    color: yellow;
+}
