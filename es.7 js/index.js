@@ -1,0 +1,1 @@
+let world = prompt('FINE ESTATE');
