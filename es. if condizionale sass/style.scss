@@ -1,0 +1,10 @@
+$nohover: true;
+
+.nav__menu a{
+    @if $nohover == false {
+        &:hover{
+            color: red;
+        }
+    }  
+}
+
