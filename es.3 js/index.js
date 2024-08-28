@@ -2,7 +2,7 @@ let number = 15;
 
 {
     let number = 12;
-    console.log(12)
+    console.log(number)
 }
 
-console.log(15)
+console.log(number)
