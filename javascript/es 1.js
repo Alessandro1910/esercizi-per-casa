@@ -1,5 +1,5 @@
-let number = 10;
+let number = 11;
 
-const number1 = 5;
+const number2 = 6;
 
-console.log(10, 5)
+console.log(11, 6)
