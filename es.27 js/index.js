@@ -6,3 +6,5 @@ let student = {
 }
 
 console.log("entries: " + Object.entries(student) + "<br/>")
+
+// GIUSEPPEMANZIMAIL@GMAIL.COM    IOLANDASALVATO@GMAIL.COM   AMMINISTRAZIONE@RODEODRIVESRL.COM
