@@ -5,4 +5,4 @@ let student = {
     school: "armando diaz"
 }
 
-console.log("keys: " + Object.values(student) + "<br/>")
+console.log("values: " + Object.values(student))
