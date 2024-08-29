@@ -1,5 +1,5 @@
-let score = prompt('inserisci un numero');
-parseInt("inserisci un numero");
+let score = parseInt(105);
+
 
 
 if (score <= 100 && score >= 90){
