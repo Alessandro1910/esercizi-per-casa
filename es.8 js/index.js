@@ -1,3 +1,4 @@
+/*
 let barca = [];
 
 for(let i = 1; i <= 5; i++){
@@ -12,3 +13,8 @@ for (let i of barca){
         console.log(i);
     }
 }
+*/
+
+let frase = prompt('inserisci una parola')
+
+console.log(frase.length)
