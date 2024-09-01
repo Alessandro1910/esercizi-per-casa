@@ -5,6 +5,10 @@ let student = {
     school: "armando diaz"
 }
 
-console.log("entries: " + Object.entries(student) + "<br/>")
+
+for(let proprieta in student) {
+    let valore = student[proprieta];
+    console.log("<p>proprieta: "+ proprieta + " =>" + valore + "</p>")
+  }
 
 // GIUSEPPEMANZIMAIL@GMAIL.COM    IOLANDASALVATO@GMAIL.COM   AMMINISTRAZIONE@RODEODRIVESRL.COM
