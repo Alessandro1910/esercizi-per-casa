@@ -1,7 +1,7 @@
-let alessandro = 7;
+let alessandro = 10;
+
+alessandro = "15";
 
 console.log(alessandro)
 
-let alessandro2 = 10
 
-console.log(alessandro2)
