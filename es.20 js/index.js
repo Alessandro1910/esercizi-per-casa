@@ -1,10 +1,9 @@
 let person = {
     name:"alex",
     age:"23",
-    city:"Napoli",
-    job:"webdeveloper"
+    city:"Napoli"
   }
 
-  person.age = "25;"
+  person.job="web developer"
   
   console.log(person)
