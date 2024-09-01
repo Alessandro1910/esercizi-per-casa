@@ -1,4 +1,4 @@
-let score = parseInt(105);
+let score = prompt("inserisci un valore numerico");
 
 
 
