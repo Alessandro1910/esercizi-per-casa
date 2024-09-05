@@ -53,3 +53,5 @@ const init = async () => { // se una funzione e Async,quando la invoco metto "AW
 }
 
 init(); // il programma inizia adesso,fino a riga 53 abbiamo solo definito delle funzioni.
+
+// DARE UN OCCHIATA AL DEBUGGER E GUARDARE LA DOCUMENTAZIONE FUNZIONI.
