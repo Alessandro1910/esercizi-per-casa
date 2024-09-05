@@ -1,5 +1,5 @@
-let number = [1, 2, 3]
+let a, b, rest;
 
-let [alex, mario, giuseppe, paolo,martina] = number
+[a, b, ...rest] = [alex, mario, giuseppe, paolo, martina];
 
 console.log(alex, mario, giuseppe, paolo, martina)
