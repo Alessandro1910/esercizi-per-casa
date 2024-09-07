@@ -32,9 +32,11 @@ a{
     
 }
 
-.contact_name{
-    border: 1px solid;
-    border-color:#333333;
-    padding: 10px 5px;
+.menu-item{
+    background-color: #e7e7e7;
 }
-}
+
+.menu-item-1{
+    @extend.menu-item;
+    border: 1px #333333;
+}}
