@@ -1,6 +1,7 @@
 const listaPersone = {
+    titolo: "Persone",
     elementi: [
-        "Alessandro",
+       "Alessandro",
         "Marco",
         "Ana",
         "Mattia"
@@ -8,7 +9,7 @@ const listaPersone = {
 };
 
 const listaPersoneJson = JSON.stringify(listaPersone)
-console.log(listaPersone)
+console.log(listaPersoneJson)
 
 const convertireLista = '{"nome": "Alessandro", "nome" : "Ana", "nome" : "Marco", "nome" : "Mattia", "nome" : "Francesco"}'
 const oggettoReale = JSON.parse(convertireLista)
@@ -25,4 +26,4 @@ const listaAggiornata = {
 };
 
 const listaAggiornataJson = JSON.stringify(listaAggiornata)
-console.log(listaAggiornata)
+console.log(listaAggiornataJson) 
