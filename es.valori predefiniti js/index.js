@@ -1,5 +1,5 @@
 let a, b, rest;
+[a, b, ...rest] = [10, 20, 40, 80, 160];
 
-[a, b, ...rest] = [alex, mario, giuseppe, paolo, martina];
+console.log(a, b, rest);
 
-console.log(alex, mario, giuseppe, paolo, martina)

@@ -4,3 +4,4 @@ let [a, , b] = number
 
 console.log(a, b)
 
+
