@@ -1,9 +1,16 @@
 const number = [10, 15, 25, 40]
 
-const [mario, alessandro] = number
+let [mario, alessandro] = [10, 15]
 
 console.log(mario, alessandro)
 
+let [...rest] = [25, 40]
+
+console.log(rest)
+
+
+
+/*
 const newArray = [25, 40]
 function assegnazione(...altrivalori) {
     return altrivalori
