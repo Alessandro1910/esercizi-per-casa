@@ -1,11 +1,21 @@
- function unisci(cifra1, cifra2, cifra3) {
+/* function unisci(cifra1, cifra2, cifra3) {
     return cifra1 + cifra2 + cifra3;
 }
 
-console.log(unisci(4, 10, 50))
+console.log(unisci(4, 10, 50))*/
 
-/*function somma( num1, num2) {
-  return num1 + num2;
+function sum(...piuNumeri) {
+  let total = 0;
+  for (const numeri of piuNumeri) {
+    total += numeri;
+  }
+  return total;
 }
 
-console.log(somma(3, 6))*/
+console.log(sum(10, 12, 13));
+
+console.log(sum(11, 22, 3, 14));
+
+console.log(sum(31, 22, 3, 24));
+
+console.log(sum(41, 12, 13, 34));
