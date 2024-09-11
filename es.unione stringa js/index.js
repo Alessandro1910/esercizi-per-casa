@@ -1,4 +1,5 @@
 let nome = "Alessandro";
-let cognome =  `turacci ${nome}`;
+let cognome =  "Turacci";
+let unione = `${nome} ${cognome}`
 
-console.log(cognome)
+console.log(unione)
