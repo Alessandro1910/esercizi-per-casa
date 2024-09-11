@@ -9,3 +9,7 @@ console.log(oggetto)
 
 let stringa = ["A", "B", "C"]
 console.log(stringa)
+
+let numero = 10;
+
+let strings = "stringa";
