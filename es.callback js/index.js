@@ -1,7 +1,8 @@
-function sommaValori(valore1, valore2, callback){
-    callback(valore1 +valore2)
+function sommaValori(valore1, valore2){
+    return (valore1 +valore2)
+    callback ()
 }
 
-sommaValori(10, 15, function(totalesomma){
-    console.log(totalesomma)
-});
+newValore = sommaValori
+
+console.log(sommaValori(10, 20))
