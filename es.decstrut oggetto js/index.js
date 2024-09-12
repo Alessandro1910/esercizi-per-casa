@@ -4,12 +4,10 @@ let oggetto = {
     segreteria: "messaggio ricevuto"
 }
 
-let{chiamata, risposta} = oggetto
-console.log(chiamata, risposta)
+let{chiamata, risposta, ...rest} = oggetto
+console.log(chiamata, risposta, rest)
 
-let {...rest} = ["messaggio ricevuto"]
 
-console.log(rest)
 
 
 
