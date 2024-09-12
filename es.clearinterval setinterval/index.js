@@ -1,4 +1,4 @@
-console.log("inizio conteggio ad intervallo")
+/*console.log("inizio conteggio ad intervallo")
 let timer = setInterval(function(){
     document.body.innerHTML += "iniziera un nuovo flusso di messaggi ogni secondo."
 }, 5000);
@@ -16,6 +16,12 @@ setTimeout(function() {
 
 for (var i = 1; i < 99999; i++)
     window.clearInterval(i);*/
+
+let bloccaoperazione = setInterval(() => console.log("il tempo non e passato ancora"), 1000);
+
+ setTimeout(() => {clearInterval(bloccaoperazione); console.log('fermati');}, 5000);
+
+ // funzionerà quest ennesima soluzione ? si speraaaa...ahahaha
 
   
 
