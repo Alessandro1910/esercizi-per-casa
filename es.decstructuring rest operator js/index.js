@@ -1,12 +1,7 @@
-const number = [10, 15, 25, 40]
+let [mario, alessandro, ...rest] = [10, 15, 25, 40]
 
-let [mario, alessandro] = [10, 15]
+console.log(mario, alessandro, rest)
 
-console.log(mario, alessandro)
-
-let [...rest] = [25, 40]
-
-console.log(rest)
 
 
 
