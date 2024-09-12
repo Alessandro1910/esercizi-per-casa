@@ -5,6 +5,8 @@ let number = {
   };
  let {marca : nuovamarca, modello : nuovomodello} = number;
 
- console.log(nuovamarca, nuovomodello)
+ console.log(nuovamarca, nuovomodello) 
+
+
 
   
