@@ -11,5 +11,7 @@ let stringa = ["A", "B", "C"]
 console.log(stringa)
 
 let numero = 10;
+console.log(numero)
 
 let strings = "stringa";
+console.log(strings)
