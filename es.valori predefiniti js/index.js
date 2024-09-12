@@ -1,5 +1,4 @@
-let a, b, rest;
-[a, b, ...rest] = [10, 20, 40, 80, 160];
+let [a = 0, b = 1, c = 2, d = 3, e = 4] = [10, 20, 40];
 
-console.log(a, b, rest);
+console.log(a, b, c, d, e);
 
