@@ -1,5 +1,5 @@
 let valutaRisultato = new Promise((resolve, reject) => {
-    if (50 / 2 * 2 + 10 == 60) {
+    if (50 / 2 * 2 + 10 - 2 == 59) {
      resolve('e vero');
     } else {
          reject('e falso');
@@ -20,10 +20,3 @@ let valutaRisultato = new Promise((resolve, reject) => {
 
     }
 )
-.finally(() => {
-        console.log('operazione completata');
-}); 
-
-
-
-
