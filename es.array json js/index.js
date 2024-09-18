@@ -1,4 +1,4 @@
-const listaPersone = {
+/*const listaPersone = {
     titolo: "Persone",
     elementi: [
        "Alessandro",
@@ -23,7 +23,35 @@ const listaAggiornata = {
         "Mattia",
         "Francesco" 
     ]
-};
+}; 
 
 const listaAggiornataJson = JSON.stringify(listaAggiornata)
-console.log(listaAggiornataJson) 
+console.log(listaAggiornataJson) */
+
+
+let nuovaVariabile = `[
+    {
+        "nome": "alessandro", 
+        "cognome": "turacci"
+    },
+    {   
+        "nome": "francesco", 
+        "cognome": "orazini"
+    }
+]`;
+
+nuovaVariabile = JSON.parse(nuovaVariabile)
+
+console.log(nuovaVariabile)
+
+let nuovoOggetto = {
+    nome: "Alfredo",
+    cognome: "Capri"
+};
+nuovaVariabile[nuovaVariabile.length] = nuovoOggetto
+
+//nuovaVariabile.push(nuovoOggetto)
+
+let nuovaVariabileJSON = JSON.stringify(nuovaVariabile)
+
+console.log(nuovaVariabileJSON)
