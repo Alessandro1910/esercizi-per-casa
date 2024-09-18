@@ -1,8 +1,6 @@
 function sommaValori(valore1, valore2){
     return (valore1 +valore2)
-    callback ()
+    sommaValori(callback); 
 }
 
-newValore = sommaValori
-
-console.log(sommaValori(10, 20))
+console.log(sommaValori(10, 20));
