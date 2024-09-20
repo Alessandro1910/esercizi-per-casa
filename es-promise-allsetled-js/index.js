@@ -30,7 +30,7 @@ function newAuto() {
         let auto = 4
         if (auto > 5){
         setTimeout(()=> {
-            resolve('3')
+            resolve('4')
         }, 6000)
     }else {
         reject('non ci sono abbastanza auto')
