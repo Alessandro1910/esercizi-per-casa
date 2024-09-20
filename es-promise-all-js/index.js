@@ -8,11 +8,18 @@ function newDati() {
 
 function newAuto() {
     return new Promise((resolve, reject) => {
+        let panini = 7
+        if (panini > 5){
         setTimeout(()=> {
-            resolve('e ho 23 anni')
+            resolve('3')
         }, 6000)
+    }else {
+        reject('non ci sono abbastanza panini')
+    }
     })
-}
+} 
+
+
 
 newDati().then(risultato => {
     console.log(risultato);
