@@ -2,10 +2,10 @@ const result = fetch("https://api.openbrewerydb.org/v1/breweries") // chiamata f
 function quandoLaFetchPronta(risposta) {
     console.log(risposta)
     if (risposta.ok == true) {
-        const responsejson = risposta.json();
+        const responsejson = risposta.json(); // abbiamo chiamato metodo json che restituisce promise e la salviamo in responsejson nome variabile
 
         console.log(responsejson)
-        responsejson.then(function (birrerie) {
+        responsejson.then(function (birrerie) {  // invocare .then della promise restituito dalla riga 5
 
             console.log(birrerie)
             for (let i = 0; i < birrerie.length; i++) {
