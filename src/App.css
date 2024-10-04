@@ -1,0 +1,36 @@
+ button {
+  width: 150px;
+  height: 80px;
+  border-radius: 100px;
+  border: 1px solid white;
+  cursor: pointer;
+  position: absolute;
+  box-shadow: 1px 1px 4px;
+  transition: left 0.15s ease;
+  
+} 
+
+button .Btn-2 {
+  height: 90%;
+  width: 55%;
+  background-color: #ffffff;
+  border: 100px;
+  border-radius: 100px;
+  position: relative;
+  right: 30%;
+ }
+
+.bg-gray-500 {
+  background-color: #00dc54;
+  border: #00dc54;
+}
+
+.bg-green-500 {
+  background-color:#c2c2c2;
+  border:#c2c2c2;
+} 
+
+
+
+
+
