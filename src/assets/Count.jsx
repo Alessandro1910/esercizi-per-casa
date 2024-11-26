@@ -10,9 +10,17 @@ const  Count = () => {
     })
    }
 
+   const handleDecrement = () => {
+    setCount((count) => {
+        return count - 1
+    })
+   }
+
     return (
       <>
-        <button onClick={handleIncrement}>Count:{count}</button>
+        <button onClick={handleIncrement}>CountAdd:{count}</button>
+        <br />
+        <button onClick={handleDecrement}>CountRemove:{count}</button>
       </>
     )
   }
