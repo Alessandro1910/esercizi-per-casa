@@ -1,9 +1,18 @@
+import { useState } from "react"
+
 const  Count = () => {
   
+    const [count, setCount] = useState(0);
+
+   const handleIncrement = () => {
+    setCount((count) => {
+        return count + 1
+    })
+   }
 
     return (
       <>
-        <div>Count: 0</div>
+        <button onClick={handleIncrement}>Count:{count}</button>
       </>
     )
   }
