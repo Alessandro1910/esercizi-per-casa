@@ -1,4 +1,5 @@
-import Count from "./assets/Count"
+
+import TextInput from "./assets/TextInput"
 
 
 
@@ -7,7 +8,7 @@ const App = () => {
 
   return (
     <>
-      <Count/>
+      <TextInput/>
     </>
   )
 }
