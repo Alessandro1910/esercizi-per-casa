@@ -22,6 +22,10 @@ const  Count = () => {
     })
    }
 
+   useEffect(() => {
+    document.title = `Count: ${count}`;
+  }, [count]);
+
 
     return (
       <>
