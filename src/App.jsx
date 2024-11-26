@@ -1,4 +1,5 @@
-import HelloWorld from "./assets/HelloWorld"
+import Count from "./assets/Count"
+
 
 
 const App = () => {
@@ -6,7 +7,7 @@ const App = () => {
 
   return (
     <>
-      <HelloWorld/>
+      <Count/>
     </>
   )
 }
