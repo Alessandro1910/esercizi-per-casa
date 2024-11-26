@@ -16,11 +16,20 @@ const  Count = () => {
     })
    }
 
+   const handleReset = () => {
+    setCount((count) => {
+        return count = 0
+    })
+   }
+
+
     return (
       <>
         <button onClick={handleIncrement}>CountAdd:{count}</button>
         <br />
         <button onClick={handleDecrement}>CountRemove:{count}</button>
+        <br />
+        <button onClick={handleReset}>Reset{count}</button>
       </>
     )
   }
