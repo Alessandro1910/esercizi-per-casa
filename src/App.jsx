@@ -1,5 +1,5 @@
 
-import TextInput from "./assets/TextInput"
+import LoginForm from "./assets/LoginForm"
 
 
 
@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <>
-      <TextInput/>
+      <LoginForm/>
     </>
   )
 }
