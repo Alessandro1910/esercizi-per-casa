@@ -24,18 +24,17 @@ const App = () => {
   return (
     <>
       <Routes>
-        {/* Rotte che condividono il layout */}
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
         </Route>
       </Routes>
-      </>
+    </>
   );
 }
 
 export default App;
 
-//Non ricordo perche nell indirizzare a Home non mi fa usare il "Path" ma mi obbliga a usare "index element"
+//Non ricordo perche nell indirizzare a Home non mi fa usare il "Path" ma mi obbliga a usare "index"
 
 
