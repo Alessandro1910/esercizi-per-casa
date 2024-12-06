@@ -1,4 +1,4 @@
 import { Todo } from './todo';
 
-// Inizializza la variabile todos come array vuoto
+// Array vuoto 
 const todos: Todo[] = [];
