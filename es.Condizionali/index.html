@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div className="container mx-auto p-6">
+        <header className="bg-blue-600 text-white p-4 text-center text-2xl">
+          Layout Condizionale
+        </header>
+      
+        <main className="p-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      
+            <div className="bg-gray-200 p-4 rounded shadow">
+              <h2 className="text-lg font-bold">Elemento 1</h2>
+              <p>Questo elemento è sempre visibile.</p>
+            </div>
+      
+            <div className="hidden md:block bg-green-200 p-4 rounded shadow">
+              <h2 className="text-lg font-bold">Elemento 2 (md:block)</h2>
+              <p>Visibile su schermi medi (≥768px) e più grandi.</p>
+            </div>
+      
+            <div className="hidden lg:block bg-red-200 p-4 rounded shadow">
+              <h2 className="text-lg font-bold">Elemento 3 (lg:block)</h2>
+              <p>Visibile su schermi grandi (≥1024px) e più grandi.</p>
+            </div>
+          </div>
+          <div className="block md:hidden bg-yellow-200 p-4 mt-4 rounded shadow">
+            <h2 className="text-lg font-bold">Elemento 4 (md:hidden)</h2>
+            <p>Visibile solo su schermi piccoli (&lt;768px).</p>
+          </div>
+        </main>
+      
+        <footer className="bg-blue-600 text-white text-center p-4 mt-6">
+          © 2025 Layout Condizionale
+        </footer>
+      </div>
+</body>
+</html>
