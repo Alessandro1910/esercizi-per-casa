@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout Dark Mode con Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class', // Modalità scura attivata tramite classe
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              light: '#3B82F6',
+              DEFAULT: '#2563EB',
+              dark: '#1D4ED8'
+            },
+            background: {
+              light: '#F3F4F6',
+              dark: '#1F2937'
+            },
+            text: {
+              light: '#1F2937',
+              dark: '#F3F4F6'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background-light text-text-light dark:bg-background-dark dark:text-text-dark transition duration-300">
+
+  <div class="container mx-auto p-8">
+    <header class="text-center mb-8">
+      <h1 class="text-4xl font-bold">Dark Mode Layout</h1>
+      <p class="text-lg">Cambia tra modalità chiara e scura.</p>
+    </header>
+
+    <main class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">Card 1</h2>
+        <p>Questa card cambia stile in base alla modalità corrente.</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">Card 2</h2>
+        <p>Prova a cambiare la modalità scura o chiara per vedere la differenza.</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">Card 3</h2>
+        <p>Tailwind CSS rende facile lo sviluppo di temi scuri e chiari.</p>
+      </div>
+
+      <div class="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">Card 4</h2>
+        <p>Aggiungi più stili o componenti per migliorare l'esperienza utente.</p>
+      </div>
+    </main>
+
+    <footer class="text-center mt-8">
+      <button class="px-4 py-2 bg-primary text-white rounded hover:bg-primary-dark transition">
+        Azione Primaria
+      </button>
+    </footer>
+  </div>
+
+</body>
+</html>
