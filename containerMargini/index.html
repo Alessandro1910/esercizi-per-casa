@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Container e Margini con Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Container principale -->
+  <div class="container mx-auto p-8">
+
+    <!-- Titolo -->
+    <h1 class="text-4xl font-bold text-center mb-6">
+      Layout con Container e Margini
+    </h1>
+
+    <!-- Paragrafo -->
+    <p class="text-lg leading-relaxed mb-6">
+      Tailwind CSS offre la classe <span class="font-semibold">container</span> per creare un layout centrato con larghezza massima automatica, 
+      adattandosi perfettamente a schermi di diverse dimensioni. Usa margini e padding per posizionare il contenuto in modo efficace.
+    </p>
+
+    <!-- Sezione contenuto -->
+    <div class="bg-white p-6 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-4">Informazioni Utili</h2>
+      <p class="text-base leading-relaxed mb-4">
+        La classe <span class="font-semibold">container</span> centra automaticamente il contenuto e applica una larghezza massima appropriata per ogni breakpoint.
+      </p>
+      
+      <!-- Lista -->
+      <ul class="list-disc list-inside mb-4 space-y-2">
+        <li>Larghezza massima automatica.</li>
+        <li>Margini laterali gestiti automaticamente.</li>
+        <li>Padding personalizzabile.</li>
+      </ul>
+
+      <!-- Bottone -->
+      <button class="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600">
+        Scopri di più
+      </button>
+    </div>
+
+  </div>
+
+</body>
+</html>
