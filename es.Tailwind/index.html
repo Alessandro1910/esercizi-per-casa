@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div className="min-h-screen bg-gray-100 p-4">
+        <header className="bg-blue-600 text-white p-4 text-center text-2xl">
+          Todo List App
+        </header>
+      
+        <main className="container mx-auto p-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            
+            <section className="bg-white p-4 shadow rounded">
+              <h2 className="text-xl font-bold mb-2">Aggiungi To-Do</h2>
+              <input
+                type="text"
+                className="w-full p-2 border border-gray-300 rounded mb-2"
+                placeholder="Nuovo to-do..."
+              />
+              <button className="bg-green-500 text-white px-4 py-2 rounded">
+                Aggiungi
+              </button>
+            </section>
+      
+            <section className="bg-white p-4 shadow rounded">
+              <h2 className="text-xl font-bold mb-2">Filtra To-Do</h2>
+              <input
+                type="text"
+                className="w-full p-2 border border-gray-300 rounded mb-2"
+                placeholder="Cerca to-do..."
+              />
+            </section>
+      
+            <section className="bg-white p-4 shadow rounded">
+              <h2 className="text-xl font-bold mb-2">Lista To-Do</h2>
+              <ul>
+                <li className="border-b py-2">Comprare il pane</li>
+                <li className="border-b py-2">Fare esercizio</li>
+                <li className="border-b py-2">Studiare React</li>
+              </ul>
+            </section>
+      
+          </div>
+        </main>
+      
+        <footer className="bg-blue-600 text-white text-center p-4">
+          © 2025 Todo App Alex Branch
+        </footer>
+      </div>
+</body>
+</html>
