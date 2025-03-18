@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sfondo e Bordo Personalizzati</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              light: '#93C5FD',
+              DEFAULT: '#3B82F6',
+              dark: '#1E40AF'
+            },
+            accent: {
+              light: '#FDE68A',
+              DEFAULT: '#F59E0B',
+              dark: '#B45309'
+            },
+            neutral: {
+              light: '#E5E7EB',
+              DEFAULT: '#9CA3AF',
+              dark: '#6B7280'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-neutral-light p-8">
+
+  <div class="container mx-auto">
+    <h1 class="text-4xl font-bold text-brand-dark mb-6 text-center">
+      Sfondo e Bordo Personalizzati con Tailwind CSS
+    </h1>
+
+    <!-- Card 1 -->
+    <div class="bg-brand p-6 rounded-lg border-4 border-brand-dark text-white mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Card Brand</h2>
+      <p>Questa card utilizza il colore "brand" per lo sfondo e il bordo.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="bg-accent p-6 rounded-lg border-4 border-accent-dark text-black mb-6">
+      <h2 class="text-2xl font-semibold mb-4">Card Accent</h2>
+      <p>Questa card utilizza il colore "accent" per lo sfondo e il bordo.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="bg-white p-6 rounded-lg border-4 border-neutral-dark text-black">
+      <h2 class="text-2xl font-semibold mb-4">Card Neutra</h2>
+      <p>Questa card ha uno sfondo bianco e un bordo neutro scuro.</p>
+    </div>
+  </div>
+
+</body>
+</html>
