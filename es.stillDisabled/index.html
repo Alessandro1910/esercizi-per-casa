@@ -1,0 +1,59 @@
+<div className="flex flex-col items-center p-6">
+    <h1 className="text-3xl font-bold mb-6">Form con Stili Disabled</h1>
+    
+    <form className="w-full max-w-sm space-y-4">
+      
+      <!-- Campo Nome -->
+      <div>
+        <label className="block text-gray-700 font-bold mb-1" htmlFor="name">
+          Nome
+        </label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Inserisci il tuo nome"
+          className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:border-gray-300 disabled:cursor-not-allowed transition"
+          disabled
+        />
+      </div>
+  
+      <!-- Campo Email -->
+      <div>
+        <label className="block text-gray-700 font-bold mb-1" htmlFor="email">
+          Email
+        </label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Inserisci la tua email"
+          className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500 disabled:bg-gray-100 disabled:border-gray-300 disabled:cursor-not-allowed transition"
+        />
+      </div>
+  
+      <!-- Campo Password -->
+      <div>
+        <label className="block text-gray-700 font-bold mb-1" htmlFor="password">
+          Password
+        </label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Inserisci la password"
+          className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500 disabled:bg-gray-100 disabled:border-gray-300 disabled:cursor-not-allowed transition"
+        />
+      </div>
+  
+      <!-- Pulsante di invio disabilitato -->
+      <button
+        className="w-full bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 active:bg-indigo-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition"
+        disabled
+      >
+        Invia
+      </button>
+  
+      <!-- Pulsante di reset abilitato -->
+      <button className="w-full bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 active:bg-gray-700 transition">
+        Reset
+      </button>
+    </form>
+  </div>
