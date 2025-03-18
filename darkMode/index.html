@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modalità Scura con Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'media', // Usa la preferenza del sistema operativo
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              light: '#93C5FD',
+              DEFAULT: '#3B82F6',
+              dark: '#1E40AF'
+            },
+            neutral: {
+              light: '#E5E7EB',
+              DEFAULT: '#9CA3AF',
+              dark: '#6B7280'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition duration-300">
+
+  <div class="container mx-auto p-8">
+    <h1 class="text-4xl font-bold text-brand">
+      Benvenuto nella Modalità Scura
+    </h1>
+    
+    <p class="mt-4 text-lg">
+      Questa pagina cambia stile automaticamente in base alla modalità scura o chiara del sistema operativo.
+    </p>
+    
+    <button class="mt-6 px-4 py-2 bg-brand text-white rounded hover:bg-brand-dark transition">
+      Pulsante Principale
+    </button>
+  </div>
+
+</body>
+</html>
