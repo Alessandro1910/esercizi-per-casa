@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palette Personalizzata in Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              light: '#93C5FD',  // Blu chiaro
+              DEFAULT: '#3B82F6', // Blu medio
+              dark: '#1E40AF'  // Blu scuro
+            },
+            accent: {
+              light: '#FDE68A', // Giallo chiaro
+              DEFAULT: '#F59E0B', // Giallo medio
+              dark: '#B45309'  // Giallo scuro
+            },
+            danger: {
+              light: '#FCA5A5', // Rosso chiaro
+              DEFAULT: '#EF4444', // Rosso medio
+              dark: '#B91C1C'  // Rosso scuro
+            },
+            success: {
+              light: '#6EE7B7', // Verde chiaro
+              DEFAULT: '#10B981', // Verde medio
+              dark: '#047857'  // Verde scuro
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 p-8">
+
+  <div class="container mx-auto text-center">
+    <h1 class="text-4xl font-bold text-brand-dark mb-6">
+      Palette Personalizzata Tailwind CSS
+    </h1>
+    <p class="text-lg text-gray-700 mb-8">
+      Pulsanti stilizzati con colori personalizzati definiti nel tema Tailwind.
+    </p>
+
+    <!-- Pulsanti con colori personalizzati -->
+    <div class="space-x-4">
+      <button class="bg-brand text-white px-6 py-3 rounded-lg hover:bg-brand-dark transition">
+        Brand
+      </button>
+      <button class="bg-accent text-white px-6 py-3 rounded-lg hover:bg-accent-dark transition">
+        Accent
+      </button>
+      <button class="bg-danger text-white px-6 py-3 rounded-lg hover:bg-danger-dark transition">
+        Danger
+      </button>
+      <button class="bg-success text-white px-6 py-3 rounded-lg hover:bg-success-dark transition">
+        Success
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
