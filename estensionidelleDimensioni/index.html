@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estensione dello Spacing con Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          spacing: {
+            '72': '18rem',  // 288px
+            '84': '21rem',  // 336px
+            '96': '24rem',  // 384px
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 p-8">
+
+  <div class="container mx-auto">
+
+    <!-- Sezione con spacing personalizzato -->
+    <div class="bg-white p-72 mb-6 rounded-lg shadow-lg">
+      <h1 class="text-3xl font-bold text-center text-gray-800">
+        Padding Personalizzato (p-72)
+      </h1>
+    </div>
+
+    <div class="bg-white p-8 mb-6 rounded-lg shadow-lg">
+      <p class="text-lg leading-relaxed">
+        Questo paragrafo utilizza padding personalizzato di 
+        <span class="font-semibold">p-72</span>. Puoi estendere lo spacing in Tailwind CSS 
+        per una maggiore flessibilità.
+      </p>
+    </div>
+
+    <!-- Utilizzo del margine personalizzato -->
+    <div class="bg-white p-8 mb-84 rounded-lg shadow-lg">
+      <h2 class="text-2xl font-semibold">
+        Margine Personalizzato (mb-84)
+      </h2>
+      <p class="text-base">
+        L'elemento sopra utilizza un margin-bottom di 21rem tramite la classe <span class="font-semibold">mb-84</span>.
+      </p>
+    </div>
+
+    <!-- Bottone con spacing personalizzato -->
+    <div class="text-center">
+      <button class="bg-blue-600 text-white px-96 py-4 rounded-lg hover:bg-blue-700">
+        Bottone con Padding px-96
+      </button>
+    </div>
+
+  </div>
+
+</body>
+</html>
