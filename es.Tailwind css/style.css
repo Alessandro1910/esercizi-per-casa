@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-transform transform hover:scale-105;
+  }
+
+  .card-header {
+    @apply text-xl font-bold text-gray-800 mb-4;
+  }
+
+  .card-body {
+    @apply text-gray-600 mb-4;
+  }
+
+  .card-button {
+    @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition;
+  }
+}
