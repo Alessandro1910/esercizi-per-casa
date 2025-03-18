@@ -1,0 +1,70 @@
+mkdir tailwind-project
+cd tailwind-project
+
+npm init -y
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+Questo creerà due file:
+
+tailwind.config.js
+postcss.config.js
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+//Crea Struttura 
+
+mkdir src
+touch src/index.html src/styles.css
+
+// Stili 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+"scripts": {
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  }
+
+  npm run build
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Primo Progetto Tailwind CSS</title>
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <div class="container mx-auto p-4">
+    <h1 class="text-3xl font-bold text-center text-blue-500">
+      Benvenuto in Tailwind CSS!
+    </h1>
+    
+    <p class="text-center text-gray-700 mt-4">
+      Questa è una semplice pagina HTML usando Tailwind CSS.
+    </p>
+
+    <div class="text-center mt-6">
+      <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Cliccami
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
+
+npx live-server src
