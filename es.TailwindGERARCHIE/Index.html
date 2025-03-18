@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Livello Base */
+@layer base {
+  body {
+    @apply bg-gray-100 text-gray-900 font-sans;
+  }
+
+  h1, h2, h3 {
+    @apply font-bold text-gray-800;
+  }
+}
+
+/* Livello Componenti */
+@layer components {
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-transform transform hover:scale-105;
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded font-medium transition duration-200;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-500 text-white hover:bg-gray-600;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 text-white hover:bg-red-600;
+  }
+}
+
+/* Livello Utilità */
+@layer utilities {
+  .text-highlight {
+    @apply text-blue-600 font-semibold;
+  }
+
+  .mt-8-custom {
+    @apply mt-8;
+  }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerarchia di Stili con Tailwind CSS</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body class="p-8">
+
+  <!-- Titoli che usano stili base -->
+  <h1 class="text-3xl mb-4">Gerarchia di Stili - Tailwind CSS</h1>
+  <h2 class="text-2xl mb-2 text-highlight">Componenti personalizzati</h2>
+
+  <!-- Card con pulsanti -->
+  <div class="card">
+    <h3 class="text-xl mb-3">Card Titolo</h3>
+    <p class="text-gray-700 mb-4">
+      Questa card utilizza stili definiti nel livello componenti.
+    </p>
+    <button class="btn btn-primary">Conferma</button>
+    <button class="btn btn-secondary ml-2">Annulla</button>
+  </div>
+
+  <!-- Card con pulsante pericoloso -->
+  <div class="card mt-8-custom">
+    <h3 class="text-xl mb-3">Card Eliminazione</h3>
+    <p class="text-gray-700 mb-4">
+      Attenzione! Questa azione è irreversibile.
+    </p>
+    <button class="btn btn-danger">Elimina</button>
+  </div>
+
+</body>
+</html>
