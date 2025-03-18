@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div className="flex flex-col items-center p-6">
+        <h1 className="text-3xl font-bold mb-6">Modulo con Focus & Active</h1>
+        
+        <form className="w-full max-w-sm space-y-4">
+          
+          <!-- Campo 1: Nome -->
+          <div>
+            <label className="block text-gray-700 font-bold mb-1" htmlFor="name">
+              Nome
+            </label>
+            <input
+              id="name"
+              type="text"
+              placeholder="Inserisci il tuo nome"
+              className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 active:border-blue-600 transition"
+            />
+          </div>
+      
+          <!-- Campo 2: Email -->
+          <div>
+            <label className="block text-gray-700 font-bold mb-1" htmlFor="email">
+              Email
+            </label>
+            <input
+              id="email"
+              type="email"
+              placeholder="Inserisci la tua email"
+              className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-green-500 active:border-green-600 transition"
+            />
+          </div>
+      
+          <!-- Campo 3: Password -->
+          <div>
+            <label className="block text-gray-700 font-bold mb-1" htmlFor="password">
+              Password
+            </label>
+            <input
+              id="password"
+              type="password"
+              placeholder="Inserisci la password"
+              className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-red-500 active:border-red-600 transition"
+            />
+          </div>
+      
+          <!-- Pulsante di invio -->
+          <button className="w-full bg-indigo-500 text-white px-4 py-2 rounded hover:bg-indigo-600 active:bg-indigo-700 transition">
+            Invia
+          </button>
+        </form>
+      </div>
+</body>
+</html>
