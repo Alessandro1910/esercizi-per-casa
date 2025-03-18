@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colori di Testo Personalizzati</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              light: '#93C5FD',
+              DEFAULT: '#3B82F6',
+              dark: '#1E40AF'
+            },
+            accent: {
+              light: '#FDE68A',
+              DEFAULT: '#F59E0B',
+              dark: '#B45309'
+            },
+            neutral: {
+              light: '#E5E7EB',
+              DEFAULT: '#9CA3AF',
+              dark: '#6B7280'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-neutral-light p-8">
+
+  <div class="container mx-auto">
+    <h1 class="text-5xl font-bold text-brand-dark mb-6">
+      Titolo Principale
+    </h1>
+    
+    <h2 class="text-3xl font-semibold text-accent mb-4">
+      Sottotitolo Importante
+    </h2>
+    
+    <p class="text-lg text-neutral-dark leading-relaxed mb-6">
+      Questo è un paragrafo di testo che utilizza il colore personalizzato "neutral-dark". 
+      Tailwind CSS permette di applicare colori personalizzati in modo semplice e coerente.
+    </p>
+
+    <p class="text-base text-neutral mb-4">
+      Un altro paragrafo con colore "neutral". Questi stili migliorano la leggibilità.
+    </p>
+
+    <a href="#" class="text-brand font-medium hover:text-brand-dark transition">
+      Leggi di più...
+    </a>
+  </div>
+
+</body>
+</html>
