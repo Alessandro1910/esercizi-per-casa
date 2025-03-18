@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tema Personalizzato con Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#1E40AF',  // Blu personalizzato
+            secondary: '#F59E0B', // Giallo personalizzato
+            background: '#F3F4F6', // Grigio chiaro
+          },
+          fontFamily: {
+            sans: ['"Roboto"', 'sans-serif'],
+            serif: ['"Merriweather"', 'serif'],
+          },
+          spacing: {
+            '72': '18rem',
+            '84': '21rem',
+            '96': '24rem',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-background p-8">
+
+  <div class="container mx-auto">
+
+    <!-- Header con tema personalizzato -->
+    <header class="text-center mb-12">
+      <h1 class="text-5xl font-serif text-primary mb-4">
+        Tema Personalizzato in Tailwind CSS
+      </h1>
+      <p class="text-lg text-secondary">
+        Scopri come creare e utilizzare un tema personalizzato con Tailwind CSS.
+      </p>
+    </header>
+
+    <!-- Sezione contenuto -->
+    <section class="bg-white p-8 rounded-lg shadow-lg mb-6">
+      <h2 class="text-3xl font-bold text-primary mb-4">Sezione Contenuto</h2>
+      <p class="text-base leading-relaxed">
+        Questo esempio utilizza colori, font e spacing personalizzati definiti nel tema Tailwind CSS.
+      </p>
+      <button class="bg-primary text-white px-8 py-3 rounded hover:bg-secondary transition duration-300">
+        Bottone Primario
+      </button>
+    </section>
+
+    <!-- Sezione confronto -->
+    <section class="bg-white p-8 rounded-lg shadow-lg">
+      <h2 class="text-3xl font-bold text-primary mb-4">Confronto con Valori Predefiniti</h2>
+      <p class="text-base leading-relaxed mb-4">
+        I colori predefiniti di Tailwind utilizzano tonalità standard. Il nostro tema personalizzato utilizza:
+      </p>
+      <ul class="list-disc pl-6">
+        <li><span class="font-semibold">Primary:</span> #1E40AF</li>
+        <li><span class="font-semibold">Secondary:</span> #F59E0B</li>
+        <li><span class="font-semibold">Font:</span> Roboto e Merriweather</li>
+      </ul>
+    </section>
+
+  </div>
+
+</body>
+</html>
