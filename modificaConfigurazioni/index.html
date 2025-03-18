@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurazione Tailwind CSS Personalizzata</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            customPurple: {
+              50: '#f5f3ff',
+              100: '#ede9fe',
+              200: '#ddd6fe',
+              300: '#c4b5fd',
+              400: '#a78bfa',
+              500: '#8b5cf6',  // Colore principale
+              600: '#7c3aed',
+              700: '#6d28d9',
+              800: '#5b21b6',
+              900: '#4c1d95'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 p-8">
+
+  <!-- Sezione con il colore personalizzato -->
+  <div class="container mx-auto p-8">
+    <h1 class="text-4xl font-bold text-center text-customPurple-500 mb-6">
+      Colore Personalizzato con Tailwind CSS
+    </h1>
+
+    <p class="text-lg leading-relaxed">
+      Questo esempio mostra come aggiungere un colore personalizzato chiamato 
+      <span class="font-semibold text-customPurple-600">customPurple</span> alla palette di Tailwind CSS.
+    </p>
+
+    <button class="bg-customPurple-500 text-white px-6 py-2 rounded hover:bg-customPurple-600">
+      Bottone Personalizzato
+    </button>
+  </div>
+
+</body>
+</html>
