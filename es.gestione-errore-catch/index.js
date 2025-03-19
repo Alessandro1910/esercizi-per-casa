@@ -10,7 +10,6 @@ function fetchData(success) {
     });
   }
   
-  // Esempio di utilizzo con then e catch
   fetchData(true)
     .then(response => {
       console.log("Successo:", response);
@@ -18,8 +17,7 @@ function fetchData(success) {
     .catch(error => {
       console.error("Errore:", error);
     });
-  
-  // Esempio con fallimento
+
   fetchData(false)
     .then(response => {
       console.log("Successo:", response);
