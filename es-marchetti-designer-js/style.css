@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+}
+
+.container {
+ max-width: 300px;
+ text-align: center;
+ margin: 20vh auto;
+}
+
+.Tab {
+ border: 20px solid white;
+ border-radius: 5px;
+ font-size: 15px;
+ width: 100%;
+}
