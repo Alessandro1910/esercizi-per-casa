@@ -11,6 +11,8 @@ class Automobile {
         return annoCorrente - this.anno;
     }
 
+    //
+
     mostraEtà() {
         return `L'auto ha ${this.#calcolaEtà()} anni.`;
     }
