@@ -3,7 +3,7 @@ class Automobile {
         this.marca = marca;
         this.modello = modello;
         this.anno = anno;
-        this.chilometraggio = 0;
+        this.chilometraggio = 0; 
     }
 
     #calcolaEtà() {
@@ -36,6 +36,16 @@ class Automobile {
 
     descrizione() {
         return `${this.marca} ${this.modello} del ${this.anno}, Chilometraggio: ${this.chilometraggio} km`;
+    }
+
+    static confrontaChilometraggio(auto1, auto2) {
+        if (auto1.chilometraggio > auto2.chilometraggio) {
+            return `${auto1.marca} ${auto1.modello} ha un chilometraggio maggiore.`;
+        } else if (auto1.chilometraggio < auto2.chilometraggio) {
+            return `${auto2.marca} ${auto2.modello} ha un chilometraggio maggiore.`;
+        } else {
+            return "Entrambe le auto hanno lo stesso chilometraggio.";
+        }
     }
 }
 
@@ -73,9 +83,13 @@ console.log(auto.saluta());
 console.log(auto.mostraEtà());
 
 const autoElettrica = new Elettrica("Tesla", "Model 3", 2023, 400);
+autoElettrica.aggiungiChilometri(200);
 console.log(autoElettrica.descrizione());
 autoElettrica.ricarica(50);
 console.log(autoElettrica.descrizione());
 console.log(autoElettrica.saluta());
 console.log(autoElettrica.mostraEtà());
 console.log(autoElettrica.verificaChilometraggio());
+
+// Confronto chilometraggio
+console.log(Automobile.confrontaChilometraggio(auto, autoElettrica));
